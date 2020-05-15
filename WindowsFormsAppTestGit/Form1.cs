@@ -20,6 +20,7 @@ namespace WindowsFormsAppTestGit
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show(textBox1.Text);
+            Console.WriteLine("YES!");
         }
 
         private void button2_Click(object sender, EventArgs e)
